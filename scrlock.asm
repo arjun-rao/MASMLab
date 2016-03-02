@@ -1,3 +1,5 @@
+;NOTE: THIS CODE IS INCOMPLETE.... 
+
 assume cs:code,ds:data
 
 data segment
