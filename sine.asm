@@ -24,6 +24,10 @@ delay endp
 start:
 	mov ax,data
 	mov ds,ax
+	
+	mov dx,cr
+	mov al,cw
+	out dx,al
 
 repeat:	mov dx,pa
 	mov cx,35d
